@@ -404,14 +404,7 @@ paths:
             $ref: "#/definitions/LoginRes"
 
         "400":
-          description: "Invalid username password supplied"
-          schema:
-        
-        "401":
-          description: "Invalid username password supplied"
-          schema:
-       
-
+          description: "Invalid username password supplied"  
   /user:
     post:
       tags:
